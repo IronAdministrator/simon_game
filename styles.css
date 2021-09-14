@@ -58,5 +58,13 @@ body {
   background-color: grey;
 }
 
+footer {
+  margin: 6rem;
+}
+
 a {
+  font-family: "Press Start 2P";
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fef2bf;
 }
