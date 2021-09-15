@@ -8,7 +8,7 @@ let started = false;
 
 let level = 0;
 
-$(document).on("click keydown", function () {
+$(document).on("touchstart keypress", function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
